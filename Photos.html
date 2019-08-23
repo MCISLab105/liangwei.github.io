@@ -1,0 +1,358 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Photos - MCISLab</title>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no"/>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/touch-touch.css">
+
+    <!-- <link rel="stylesheet" href="css/googlefont.css"> -->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.2.1.js"></script>
+
+    <!--[if lt IE 9]>
+    <html class="lt-ie9">
+    <div style=' clear: both; text-align:center; position: relative;'>
+        <a href="http://windows.microsoft.com/en-US/internet-explorer/..">
+            <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820"
+                 alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/>
+        </a>
+    </div>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+    <script src='js/device.min.js'></script>
+</head>
+<body>
+<div class="page">
+    
+    <!--========================================================
+                              HEADER
+    =========================================================-->
+    <header class="well">
+        <div class="container text-center text-md-left">
+            <div class="row inset-2">
+                <!-- Brand -->
+                <div class="brand">
+                    <h1 class="brand_name">
+                        <a href="./">
+                            <!-- <img src="images/logo.png" alt=""> -->
+                            <img src="images/logo_bit.png" alt="" style="margin-top: -20px">
+                            <span>梁玮</span>
+                            <span class="small">MCISLab</span>
+                        </a>
+                    </h1>
+                </div>
+                <!-- END Brand -->
+
+                <!-- END Contact info -->
+                <div class="box-skin bg-contrast-variant-1 offset-3">
+                    <dl>
+                        <dt class="small ">Contact us: </dt>
+                        <dd><a href="mailto:liangwei@bit.edu.cn">liangwei@bit.edu.cn</a></dd>
+                    </dl>
+                </div>
+                <!-- END Contact info-->
+            </div>
+        </div>
+        <!-- Menu -->
+        <div id="stuck_container" class="stuck_container">
+            <div class="container text-center text-md-left">
+                <div class="row">
+                    <nav class="nav">
+                        <ul class="sf-menu" data-type="navbar">
+                            <li>
+                                <a href="index.html" style="font-family: Arial">Home</a>
+                            </li>
+                            <li>
+                                <a href="Projects.html" style="font-family: Arial">Projects</a>
+                                <!-- <ul>
+                                    <li>
+                                        <a href="#">FAQ</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Company Overview</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Careers</a>
+                                        <ul>
+                                            <li>
+                                                <a href="#">Support Manager</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Client Manager</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Security Officer</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Worldwide Locations</a>
+                                    </li>
+                                </ul> -->
+                            </li>
+                            <li>
+                                <a href="People.html" style="font-family: Arial">People</a>
+                            </li>
+                            <li>
+                                <a href="Teaching.html" style="font-family: Arial">Teaching</a>
+                            </li>
+                            <li class="active">
+                                <a href="Photos.html" style="font-family: Arial">Photos</a>
+                            </li>
+                            <li>
+                                <a href="Photos-zh.html">中文</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- END Menu -->
+    </header>
+    <!--========================================================
+                              CONTENT
+    =========================================================-->
+    <main>
+        <!-- Our Products -->
+        <section class="well-1 well-1--inset-1 bg-default-variant-2">
+            <div class="text-center text-md-left">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-12">
+                            <h2>照片墙</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resp-tabs">
+                    <ul class="container resp-tabs-list">
+                        <li>所有照片</li>
+                        <li>类别一</li>
+                        <li>类别二</li>
+                    </ul>
+                    <div class="row row-no-gutter resp-tabs-container">
+                        <!-- Tab 1 -->
+                        <div>
+                            <div class="col-sm-4">
+                                <a class="thumb" href="images/1.jpg" data-gallery="1">
+                                    <img src="images/1.jpg" alt="">
+                                    <span class="thumb_overlay"></span>
+                                </a>
+                                <a class="thumb" href="images/2.jpg" data-gallery="1">
+                                    <img src="images/2.jpg" alt="">
+                                    <span class="thumb_overlay"></span>
+                                </a>
+                            </div>
+                            <div class="col-sm-4">
+                                <a class="thumb" href="images/3.jpg" data-gallery="1">
+                                    <img src="images/3.jpg" alt="">
+                                    <span class="thumb_overlay"></span>
+                                </a>
+                                <a class="thumb" href="images/4.jpg" data-gallery="1">
+                                    <img src="images/4.jpg" alt="">
+                                    <span class="thumb_overlay"></span>
+                                </a>
+                            </div>
+                            <div class="col-sm-4">
+                                <a class="thumb" href="images/5.jpg" data-gallery="1">
+                                    <img src="images/5.jpg" alt="">
+                                    <span class="thumb_overlay"></span>
+                                </a>
+                                <a class="thumb" href="images/6.jpg" data-gallery="1">
+                                    <img src="images/6.jpg" alt="">
+                                    <span class="thumb_overlay"></span>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- END Tab 1 -->
+
+                        <!-- Tab 2 -->
+                        <div>
+                            <div class="col-sm-4">
+                                <a class="thumb" href="images/1.jpg" data-gallery="1">
+                                    <img src="images/1.jpg" alt="">
+                                    <span class="thumb_overlay"></span>
+                                </a>
+                                <a class="thumb" href="images/2.jpg" data-gallery="1">
+                                    <img src="images/2.jpg" alt="">
+                                    <span class="thumb_overlay"></span>
+                                </a>
+                            </div>
+                            <div class="col-sm-4">
+                                <a class="thumb" href="images/3.jpg" data-gallery="1">
+                                    <img src="images/3.jpg" alt="">
+                                    <span class="thumb_overlay"></span>
+                                </a>
+                                <a class="thumb" href="images/4.jpg" data-gallery="1">
+                                    <img src="images/4.jpg" alt="">
+                                    <span class="thumb_overlay"></span>
+                                </a>
+                            </div>
+                            <div class="col-sm-4">
+                                <a class="thumb" href="images/5.jpg" data-gallery="1">
+                                    <img src="images/5.jpg" alt="">
+                                    <span class="thumb_overlay"></span>
+                                </a>
+                                <a class="thumb" href="images/6.jpg" data-gallery="1">
+                                    <img src="images/6.jpg" alt="">
+                                    <span class="thumb_overlay"></span>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- END Tab 2 -->
+
+                        <!-- Tab 3 -->
+                        <div>
+                            <div class="col-sm-4">
+                                <a class="thumb" href="images/1.jpg" data-gallery="1">
+                                    <img src="images/1.jpg" alt="">
+                                    <span class="thumb_overlay"></span>
+                                </a>
+                                <a class="thumb" href="images/2.jpg" data-gallery="1">
+                                    <img src="images/2.jpg" alt="">
+                                    <span class="thumb_overlay"></span>
+                                </a>
+                            </div>
+                            <div class="col-sm-4">
+                                <a class="thumb" href="images/3.jpg" data-gallery="1">
+                                    <img src="images/3.jpg" alt="">
+                                    <span class="thumb_overlay"></span>
+                                </a>
+                                <a class="thumb" href="images/4.jpg" data-gallery="1">
+                                    <img src="images/4.jpg" alt="">
+                                    <span class="thumb_overlay"></span>
+                                </a>
+                            </div>
+                            <div class="col-sm-4">
+                                <a class="thumb" href="images/5.jpg" data-gallery="1">
+                                    <img src="images/5.jpg" alt="">
+                                    <span class="thumb_overlay"></span>
+                                </a>
+                                <a class="thumb" href="images/6.jpg" data-gallery="1">
+                                    <img src="images/6.jpg" alt="">
+                                    <span class="thumb_overlay"></span>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- END Tab 3 -->
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END Our Products -->
+
+        <!-- Useful Info -->
+        <section class="well-2 well-2--inset-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-offset-1 col-xs-10 col-sm-offset-0 wow fadeInUp" data-wow-dutation=".15s">
+                        <h2>历史介绍</h2>
+                    </div>
+                </div>
+
+                <div class="row offset-6">
+                    <div class="col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-6 wow fadeInRight" data-wow-dutation=".75s" data-wow-delay=".25s">
+                        <p style="text-align: justify;">媒体计算与智能系统实验室（MCISLab）隶属于北京理工大学计算机学院和智能信息技术北京市重点实验室，是计算机学院的重要科研团队之一。实验室成立于2003年，其前身是1997年成立的计算机视觉实验室。主要研究视频、图像、图形、文字、音频等各类媒体信息的计算理论及其在移动机器人、人机交互、信息检索、数字娱乐、行为识别等智能系统中的应用技术；研究生物特征识别、医学图像处理和健康信息计算等算法和系统实现。</p>
+                    </div>
+
+                    <div class="col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-6 offset-3 wow fadeInRight" data-wow-dutation=".75s" data-wow-delay=".5s">
+                        <p style="text-align: justify;">近5年，实验室共承担科研项目30余项，其中国家自然科学基金项目11项、国家973计划子课题3项、国家863高技术研究项目5项；获得或申请国家发明专利12项目，获得国防科学技术二等奖、教育部技术发明二等奖等部委级科学技术奖5项；在ICCV、CVPR、ECCV、MM等国际学术会议和IEEE T-PAMI、T-IP、T-MM、T-SMC、T-CSVT、T-VCG等国际重要刊物以及在计算机学报、软件学报、电子学报、自动化学报等国内重要学术刊物上发表学术论文300余篇。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END Useful Info -->
+
+        <!-- Parallax -->
+        <section class="parallax well-4 bg-contrast-variant-1" data-url="images/index_img02.jpg" data-speed="1"
+                 data-mobile="false">
+            <div class="container">
+                <h2>
+                    欢迎有兴趣的同学<br>
+                    加入我们
+                </h2>
+
+                <a href="mailto:liangwei@bit.edu.cn" class="btn btn-md btn-contrast-variant-1 btn-image btn-image-2">
+                    加入我们
+                </a>
+            </div>
+        </section>
+        <!-- END Parallax -->
+    </main>
+    <!--========================================================
+                              FOOTER
+    =========================================================-->
+    <footer>
+        <div class="container text-center text-md-left">
+            <div class="row well-5">
+                <div class="col-xs-12 col-md-5 col-lg-6 relative" style="margin-top: 9px">
+                    <!-- Brand -->
+                    <div class="brand">
+                        <h1 class="brand_name">
+                            <a href="./">
+                                <img src="images/favicon.ico" alt="" style="margin-top: 8px">
+                                <span>MCISLab</span>
+                                <!-- <span class="small">security co.</span> -->
+                            </a>
+                        </h1>
+                    </div>
+                    <!-- END Brand -->
+
+                    <!-- Copyright -->
+                    <div class="box-skin-1 small">
+                        &copy; <span id="copyright-year"></span><!--  |
+                        <a href="" class="small">Privacy Policy</a> -->
+                        <!-- {%FOOTER_LINK} -->
+                    </div>
+                    <!-- END Copyright -->
+                </div>
+
+                <!-- Address -->
+                <div class="col-xs-12 col-md-4 col-lg-3">
+                    <div class="box-md offset-4" style="margin-top:15px">
+                        <div class="box_left">
+                            <a href="http://j.map.baidu.com/HVLK9" target="_blank">
+                                <img src="images/page-1_img04.png" alt="" class="offset-2">
+                            </a>
+                        </div>
+                        <div class="box_cnt">
+                            <address>
+                                <a href="http://j.map.baidu.com/HVLK9" target="_blank">
+                                    北京市海淀区中关村南大街5号<br>
+                                    北京理工大学计算机学院，100081
+                                </a>
+                            </address>
+                        </div>
+                    </div>
+                </div>
+                <!-- END Address -->
+
+                <!-- Inline list -->
+                <div class="col-xs-12 col-md-3 offset-4 text-md-right">
+                    <ul class="inline-list">
+                        <!-- <li><a href="#" class="icon icon-sm fa-weibo" ></a></li> -->
+                        <!-- <li><a href="#" class="icon icon-sm fa-weixin" ></a></li> -->
+                        <li><a href="" class="icon icon-sm fa-youtube-play"></a></li>
+                        <li><a href="mailto:liangwei@bit.edu.cn" class="icon icon-sm fa-send"></a></li>
+                        <li><a href="Photos-zh.html" class="icon icon-sm fa-language"></a></li>
+
+                    </ul>
+                </div>
+                <!-- END Inline list -->
+            </div>
+        </div>
+
+    </footer>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
